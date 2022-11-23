@@ -11,16 +11,16 @@ import {
 
 function App() {
   return (
-    
-<BrowserRouter >
+
+    <BrowserRouter >
       <Header />
       <Routes>
         <Route path='/' element={<Main />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
 
-   
+
   );
 }
 
