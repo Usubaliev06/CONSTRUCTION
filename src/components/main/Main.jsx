@@ -231,6 +231,8 @@ const Main = () => {
 
           </div>
 
+          {/* <input type="range" value=""></input> */}
+
         </div>
 
       </div>

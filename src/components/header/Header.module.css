@@ -9,13 +9,19 @@ header {
 }
 
 nav {
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  top: 70px;
-  width: 80%;
+  top: 0px;
+  width: 100%;
   z-index: 10;
+  background-color: #406ad552;
+  height: 100px;
+  margin-left: -135px;
+  border-radius: 0px 0px 20px 20px;
 }
 
 nav>img {
