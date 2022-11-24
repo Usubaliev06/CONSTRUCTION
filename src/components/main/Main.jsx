@@ -17,6 +17,12 @@ import Alison from '../../images/Alison.png'
 import Adam from '../../images/Adam.png'
 import arrow1 from '../../images/Icon.png'
 import arrow2 from '../../images/Icon (1).png'
+import quotes from '../../images/quates2.png'
+import map from '../../images/Group 597.png'
+import arrow_button from '../../images/arrow_button.png'
+
+
+
 
 
 
@@ -151,6 +157,95 @@ const Main = () => {
 
 
         </div>
+
+      </div>
+
+      <div className={css.block_4}>
+
+        <h1>Message from CEO</h1>
+
+        <img id={css.quotes1} src={quotes} alt="" />
+
+        <p>Shewing met parties gravity husband sex pleased. On to no kind do next feel held walk. Last own loud and knew give gay four. Sentiments motionless or principles preference excellence am. Literature surrounded insensible at indulgence or to admiration remarkably. Matter future lovers desire marked boy use. Chamber reached do he nothing be.</p>
+
+        <p>Do in laughter securing smallest sensible no mr hastened. As perhaps proceed in in brandon of limited unknown greatly. Distrusts fulfilled happiness unwilling as explained of difficult. No landlord of peculiar ladyship attended if contempt ecstatic. Loud wish made on is am as hard. Court so avoid in plate hence. Of received mr breeding concerns peculiar securing landlord. Spot to many it four bred soon well to. Or am promotion in no departure abilities. Whatever landlord yourself at by pleasure of children be.</p>
+
+        <img id={css.quotes2} src={quotes} alt="" />
+
+      </div>
+
+
+      <div className={css.block_5}>
+
+        <h1>Contact Us</h1>
+
+        <p>Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary.</p>
+
+        <div className={css.plase}>
+
+          <div className={css.inputs}>
+
+            <fieldset>
+              <legend>Name </legend>
+              <label for="">
+                <input id={css.input1} type="" name="" placeholder='Maya' />
+              </label>
+            </fieldset>
+
+            <input id={css.input2} type="text" name="" placeholder='Email' />
+
+            <input id={css.input2} type="text" name="" placeholder='Email' />
+
+            <input id={css.input4} type="text" name="" placeholder='Massage' />
+
+            <button>Send Massage</button>
+
+          </div>
+
+          <img src={map} alt="" />
+
+        </div>
+
+      </div>
+
+      <div className={css.block_6}>
+
+        <h1>Lattest Blogs</h1>
+
+        <p>Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed necessary.</p>
+
+        <div className={css.wrapper}>
+
+          <div className={css.first_citation}>
+            <h2>Unleash Your Creativity</h2>
+            <p>Nine for Mortal Men, doomed to die, One for</p>
+          </div>
+
+          <div className={css.second_citation}>
+
+            <h2>Unleash Your Creativity</h2>
+
+            <p>Nine for Mortal Men, doomed to die, One for</p>
+
+            <button>Read more</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className={css.block_7}>
+
+        <h1>Subscribe to our
+          Newsletter</h1>
+
+        <p>Age sold some full like rich new. Amounted repeated as believed in confined juvenile.</p>
+
+        <button>
+          SUBSCRIBE
+          <img src={arrow_button} alt="" />
+        </button>
 
       </div>
 
